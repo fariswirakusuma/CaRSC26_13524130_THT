@@ -1,0 +1,43 @@
+[0.000000] (-) TimerEvent: {}
+[0.000337] (yapping) JobQueued: {'identifier': 'yapping', 'dependencies': OrderedDict()}
+[0.000493] (yapping) JobStarted: {'identifier': 'yapping'}
+[0.009873] (yapping) JobProgress: {'identifier': 'yapping', 'progress': 'cmake'}
+[0.011391] (yapping) Command: {'cmd': ['/usr/bin/cmake', '/root/ros_ws/CaRSC26-_-THT-_-13524130./src/soal-3-coconsept/src/yapping', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros_ws/CaRSC26-_-THT-_-13524130./install/yapping'], 'cwd': '/root/ros_ws/CaRSC26-_-THT-_-13524130./build/yapping', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('HOSTNAME', '8224bf3c849f'), ('GIT_ASKPASS', '/root/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/root/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.104.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-47411d80-0d86-436a-865a-70277256d649.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f85aebcf-54aa-42bf-80fd-cd1cf5b2a06b.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/root/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-f85aebcf-54aa-42bf-80fd-cd1cf5b2a06b.sock","/tmp/.X11-unix/X19","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':19'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/root/.vscode-server/data/User/workspaceStorage/9fb8384a7f074039197c7fe16e35a490/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7ea4f957c7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-f85aebcf-54aa-42bf-80fd-cd1cf5b2a06b.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X19'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros_ws/CaRSC26-_-THT-_-13524130./build/yapping'), ('LC_ALL', 'C.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.077841] (yapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100643] (-) TimerEvent: {}
+[0.192224] (yapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.201496] (-) TimerEvent: {}
+[0.210616] (yapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.302454] (-) TimerEvent: {}
+[0.309511] (yapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.318175] (yapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.319269] (yapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.319977] (yapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.324493] (yapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.403354] (-) TimerEvent: {}
+[0.413048] (yapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.425983] (yapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.426999] (yapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.427471] (yapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.437473] (yapping) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[0.438308] (yapping) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.438592] (yapping) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.438843] (yapping) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.440487] (yapping) StderrLine: {'line': b'\n'}
+[0.442190] (yapping) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.442885] (yapping) StderrLine: {'line': b'  any of the following names:\n'}
+[0.443189] (yapping) StderrLine: {'line': b'\n'}
+[0.443790] (yapping) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.444929] (yapping) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.445120] (yapping) StderrLine: {'line': b'\n'}
+[0.445283] (yapping) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.445513] (yapping) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.445735] (yapping) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.445962] (yapping) StderrLine: {'line': b'  has been installed.\n'}
+[0.446153] (yapping) StderrLine: {'line': b'\n'}
+[0.446358] (yapping) StderrLine: {'line': b'\x1b[0m\n'}
+[0.446585] (yapping) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.446748] (yapping) StdoutLine: {'line': b'See also "/root/ros_ws/CaRSC26-_-THT-_-13524130./build/yapping/CMakeFiles/CMakeOutput.log".\n'}
+[0.446913] (yapping) CommandEnded: {'returncode': 1}
+[0.466594] (yapping) JobEnded: {'identifier': 'yapping', 'rc': 1}
+[0.478398] (-) EventReactorShutdown: {}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "yapping__py",
+		"source" : "/root/ros_ws/CaRSC26-_-THT-_-13524130./src/soal-2and3-coconsept/build/yapping/yapping__py"
+	}
+}

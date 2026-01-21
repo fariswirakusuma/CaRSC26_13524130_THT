@@ -1,0 +1,5 @@
+[user]
+	email = fariswkt@gmail.com
+	name = fariswirakusuma
+[credential]
+	helper = "!f() { /root/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/node /tmp/vscode-remote-containers-916b9265-e0cd-48e7-97f6-6470dfe0d8e8.js git-credential-helper $*; }; f"

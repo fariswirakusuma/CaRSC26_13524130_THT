@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/root/ros_ws/CaRSC26-_-THT-_-13524130./src/soal-2and3-coconsept/build/yapping/yapping__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "yapping::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "yapping__py::@33e3d6baf5591fd7dc47",
+	"name" : "yapping__py",
+	"paths" : 
+	{
+		"build" : "yapping__py",
+		"source" : "/root/ros_ws/CaRSC26-_-THT-_-13524130./src/soal-2and3-coconsept/build/yapping/yapping__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/root/ros_ws/CaRSC26-_-THT-_-13524130./src/soal-2and3-coconsept/build/yapping/yapping__py/CMakeFiles/yapping__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/root/ros_ws/CaRSC26-_-THT-_-13524130./src/soal-2and3-coconsept/build/yapping/yapping__py/CMakeFiles/yapping__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/root/ros_ws/CaRSC26-_-THT-_-13524130./src/soal-2and3-coconsept/build/yapping/rosidl_generator_py/yapping/_yapping_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
