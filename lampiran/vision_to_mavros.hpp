@@ -17,8 +17,23 @@
 #include <mavros_msgs/msg/landing_target.hpp>
 #include <string>
 
+/**
+ * @file vision_to_mavros.cpp
+ * @brief Mengambil data pose dari sistem vision dan mengirim ke MAVROS.
+ * @author Faris
+ * @date 2026-01-20
+ */
+
+
 class VisionToMavros : public rclcpp::Node {
     public:
+    /**
+     * @brief Fungsi utama untuk mengirim pose dari vision ke MAVROS.
+     *
+     * Fungsi ini biasanya dipanggil dalam loop ROS2 atau timer.
+     * Data pose yang diterima dari sistem vision dikonversi menjadi
+     * PoseStamped dan dipublish ke topic MAVROS.
+     */
         VisionToMavros();
         ~VisionToMavros() {}
 
