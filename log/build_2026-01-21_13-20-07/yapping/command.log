@@ -1,2 +1,0 @@
-Invoking command in '/root/ros_ws/CaRSC26-_-THT-_-13524130./build/yapping': /usr/bin/cmake /root/ros_ws/CaRSC26-_-THT-_-13524130./src/soal-3-coconsept/src/yapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_ws/CaRSC26-_-THT-_-13524130./install/yapping
-Invoked command in '/root/ros_ws/CaRSC26-_-THT-_-13524130./build/yapping' returned '1': /usr/bin/cmake /root/ros_ws/CaRSC26-_-THT-_-13524130./src/soal-3-coconsept/src/yapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros_ws/CaRSC26-_-THT-_-13524130./install/yapping
