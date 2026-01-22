@@ -1,0 +1,8 @@
+#!/home/ubuntunya-faris/Kuliah/AKSANTARA/proyek1/CaRSC26-_-THT-_-13524130./src/soal-4-GCS/venv/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
