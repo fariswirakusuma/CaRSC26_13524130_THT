@@ -15,7 +15,7 @@ jawaban: <a href="/assets/ssno1.png"><code>jawaban soal-1</code></a>
 </ol>
 
 ### ***REFRENSI***:
-(https://www.w3schools.com/git/)
+<li>(https://www.w3schools.com/git/)
 
 ### ***No 3***:
 <ol type="a">
@@ -29,7 +29,7 @@ jawaban: <a href="/assets/ssno1.png"><code>jawaban soal-1</code></a>
 </ol>
 
 ### ***REFRENSI***:
-(https://dinargeo.co.id/blog/bagian-bagian-dan-fungsi-drone-pemetaan/)
+<li>(https://dinargeo.co.id/blog/bagian-bagian-dan-fungsi-drone-pemetaan/)
 
 ### ***No 4***:
 <ol type="a">
@@ -39,10 +39,10 @@ jawaban: <a href="/assets/ssno1.png"><code>jawaban soal-1</code></a>
 </ol>
 
 ### ***REFRENSI***:
-(https://docs.ros.org/en/humble/index.html)
-(https://docs.docker.com/get-started/docker_cheatsheet.pdf)
-(https://distrobox.it/)
-(chatgpt)
+<li>(https://docs.ros.org/en/humble/index.html)
+<li>(https://docs.docker.com/get-started/docker_cheatsheet.pdf)
+<li>(https://distrobox.it/)
+<li>(chatgpt:hanya untuk fix docker dan make sure)
 
 ### ***No 5***:
 <ol type="a"> 
@@ -134,13 +134,8 @@ jawaban: <a href="/assets/ssno1.png"><code>jawaban soal-1</code></a>
 </ol>   
 
 ### ***REFRENSI***:
-Austin, R. (2010). Unmanned Aircraft Systems: UAVs Design, Development and Deployment. Wiley.
-Dalamani, J., et al. (2017). “Design and Analysis of Hybrid VTOL UAV.” International Journal of Aerospace Engineering.
-Ardupilot Dev Team. Vehicle Types Overview.
-Beard, R. W., & McLain, T. W. (2012). Small Unmanned Aircraft: Theory and Practice. Princeton University Press.
-Stevens, B. L., & Lewis, F. L. (2003). Aircraft Control and Simulation. Wiley.
-Kaplan, E. D., & Hegarty, C. (2006). Understanding GPS: Principles and Applications. Artech House.
-u-blox AG. GPS Accuracy and DOP Explained.s.
+<li>Austin, R. (2010). Unmanned Aircraft Systems: UAVs Design, Development and Deployment. Wiley.
+<li>Dalamani, J., et al. (2017). “Design and Analysis of Hybrid VTOL UAV.” International Journal of Aerospace Engineering.
 
 ### ***No 6***:
 <ol type="a"> 
@@ -151,7 +146,8 @@ u-blox AG. GPS Accuracy and DOP Explained.s.
 </ol>
 
 ### ***REFRENSI***:
-(https://www.w3schools.com/cpp/)
-(https://www.geeksforgeeks.org/dsa/a-search-algorithm/)
-(https://en.wikipedia.org/wiki/)(Proportional%E2%80%93integral%E2%80%93derivative_controller#:~:text=A%20proportional%E2%80%93integral%E2%80%93derivative%20controller,over%20time%2C%20eliminating%20lingering%20discrepancies.)
-(https://www.youtube.com/watch?v=VFXf1lIZ3p8)
+<li>(https://www.w3schools.com/cpp/)
+<li>(https://www.geeksforgeeks.org/dsa/a-search-algorithm/)
+<li>(https://en.wikipedia.org/wiki/)
+<li>(Proportional%E2%80%93integral%E2%80%93derivative_controller#:~:text=A%20proportional%E2%80%93integral%E2%80%93derivative%20controller,over%20time%2C%20eliminating%20lingering%20discrepancies)
+<li>(https://www.youtube.com/watch?v=VFXf1lIZ3p8)
