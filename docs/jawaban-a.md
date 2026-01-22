@@ -14,6 +14,9 @@ jawaban: <a href="/assets/ssno1.png"><code>jawaban soal-1</code></a>
     <li> jawaban: <a href="/assets/ssno2e.png"><code>jawaban soal-2e</code></a>
 </ol>
 
+### ***REFRENSI***:
+(https://www.w3schools.com/git/)
+
 ### ***No 3***:
 <ol type="a">
     <li>jawaban: <a href="/assets/ssno3.png"><code>jawaban soal-3a</code></a>
@@ -22,8 +25,11 @@ jawaban: <a href="/assets/ssno1.png"><code>jawaban soal-1</code></a>
     2. Telemetry : Monitoring UAV real time
     3. Parameter Tuning: konfigurasi dan kalibrasi sistem
     4. Map and Geofencing: Navigasi dan keamanan kendaraan.
-    <li>jawaban: -
+    <li>jawaban: <a href="/assets/ssno3.png"><code>jawaban soal-3a</code></a>
 </ol>
+
+### ***REFRENSI***:
+(https://dinargeo.co.id/blog/bagian-bagian-dan-fungsi-drone-pemetaan/)
 
 ### ***No 4***:
 <ol type="a">
@@ -31,6 +37,12 @@ jawaban: <a href="/assets/ssno1.png"><code>jawaban soal-1</code></a>
     <li>jawaban: <a href="/assets/ssno4b.png"><code>jawaban soal-4b</code></a>
     <li>jawaban: <a href="/assets/ssno4c.png"><code>jawaban soal-4c</code></a>
 </ol>
+
+### ***REFRENSI***:
+(https://docs.ros.org/en/humble/index.html)
+(https://docs.docker.com/get-started/docker_cheatsheet.pdf)
+(https://distrobox.it/)
+(chatgpt)
 
 ### ***No 5***:
 <ol type="a"> 
@@ -121,6 +133,15 @@ jawaban: <a href="/assets/ssno1.png"><code>jawaban soal-1</code></a>
     </ol>
 </ol>   
 
+### ***REFRENSI***:
+Austin, R. (2010). Unmanned Aircraft Systems: UAVs Design, Development and Deployment. Wiley.
+Dalamani, J., et al. (2017). “Design and Analysis of Hybrid VTOL UAV.” International Journal of Aerospace Engineering.
+Ardupilot Dev Team. Vehicle Types Overview.
+Beard, R. W., & McLain, T. W. (2012). Small Unmanned Aircraft: Theory and Practice. Princeton University Press.
+Stevens, B. L., & Lewis, F. L. (2003). Aircraft Control and Simulation. Wiley.
+Kaplan, E. D., & Hegarty, C. (2006). Understanding GPS: Principles and Applications. Artech House.
+u-blox AG. GPS Accuracy and DOP Explained.s.
+
 ### ***No 6***:
 <ol type="a"> 
     <li>A*: adalah sebuah algoritma pathfinding dengan sistem shortest distance f = g+ h dengan g adalah jarak sebenarnya dari node ke flag dan h adalah jarak estimasi cost dari node flag biasanya pakai manhatan distanse (|x-xg|+|y-yg|) nah biasanya prosesnya dari camera(scan objek sekitar)-> detect obstacle ->lalu buat parse ke opencv -> buat grid map-> lalu jalankan A* bedasarkan gridmap.
@@ -128,3 +149,9 @@ jawaban: <a href="/assets/ssno1.png"><code>jawaban soal-1</code></a>
     <li>PID dalam bahasa sederhanyanya metode kontrol umpa balik/feedback control untuk mencapai target sexara stabil dan cepat 
     <li>Kalman FIlter adalah algoritma estimasi keadaan biasa dipakai untuk menghubungkan data sensro yang bising(noise) agar kita dapat perkiraan kondisi yang lebih akurat. alurnya menebak keadaan sekrang -> mengoreksi tebakan dengan sensor -> ulangi.
 </ol>
+
+### ***REFRENSI***:
+(https://www.w3schools.com/cpp/)
+(https://www.geeksforgeeks.org/dsa/a-search-algorithm/)
+(https://en.wikipedia.org/wiki/)(Proportional%E2%80%93integral%E2%80%93derivative_controller#:~:text=A%20proportional%E2%80%93integral%E2%80%93derivative%20controller,over%20time%2C%20eliminating%20lingering%20discrepancies.)
+(https://www.youtube.com/watch?v=VFXf1lIZ3p8)
