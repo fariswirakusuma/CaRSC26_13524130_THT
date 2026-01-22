@@ -148,6 +148,5 @@ jawaban: <a href="/assets/ssno1.png"><code>jawaban soal-1</code></a>
 ### ***REFRENSI***:
 <li>(https://www.w3schools.com/cpp/)
 <li>(https://www.geeksforgeeks.org/dsa/a-search-algorithm/)
-<li>(https://en.wikipedia.org/wiki/)
-<li>(Proportional%E2%80%93integral%E2%80%93derivative_controller#:~:text=A%20proportional%E2%80%93integral%E2%80%93derivative%20controller,over%20time%2C%20eliminating%20lingering%20discrepancies)
+<li>(https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller#:~:text=A%20proportional%E2%80%93integral%E2%80%93derivative%20controller,over%20time%2C%20eliminating%20lingering%20discrepancies)
 <li>(https://www.youtube.com/watch?v=VFXf1lIZ3p8)
