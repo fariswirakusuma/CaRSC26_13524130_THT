@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros_ws/CaRSC26-_-THT-_-13524130./src/soal-2and3-coconsept/build/yapping/rosidl_generator_py/yapping/yapping_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "yapping__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/yapping")

@@ -1,3 +1,0 @@
-
-string iso_duration
-

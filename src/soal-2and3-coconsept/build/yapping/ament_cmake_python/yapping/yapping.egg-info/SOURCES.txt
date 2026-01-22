@@ -1,6 +1,0 @@
-setup.py
-yapping/__init__.py
-yapping.egg-info/PKG-INFO
-yapping.egg-info/SOURCES.txt
-yapping.egg-info/dependency_links.txt
-yapping.egg-info/top_level.txt

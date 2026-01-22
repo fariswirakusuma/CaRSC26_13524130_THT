@@ -8,6 +8,7 @@ log/
 *.db
 *.db-shm
 *.db-wal
+.venv/
 
 # ROS / colcon
 .colcon*

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros_ws/CaRSC26-_-THT-_-13524130./src/soal-2and3-coconsept/build/yapping/clock" "/root/ros_ws/CaRSC26-_-THT-_-13524130./src/soal-2and3-coconsept/build/yapping/user" "/root/ros_ws/CaRSC26-_-THT-_-13524130./src/soal-2and3-coconsept/build/yapping/watch" "TARGETS" "clock" "user" "watch" "DESTINATION" "lib/yapping")
