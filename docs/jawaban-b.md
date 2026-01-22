@@ -168,7 +168,7 @@ hasil pengerjaan/source code:<a href="/src/soal-4-GCS/"><code>jawaban soal no 4 
 
 Gambaran umum arsitektur: 
 
-<a href="/assets/ssno2gcs_a.png"><code>ssno2gcs_a.png</code></a>
+<a href="/assets/ssno5b_gcs.png"><code>ssno2gcs_a.png</code></a>
 <ol type="a">
     <li>Frontend (React/Vite): menampilkan data telemetri, form input misi, tombol kontrol UAV.
     <li>Backend (FastAPI): bertindak sebagai jembatan antara aplikasi web dan UAV.
