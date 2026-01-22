@@ -1,0 +1,14 @@
+# build artifacts
+build/
+install/
+log/
+
+# VSCode junk
+.vscode/
+*.db
+*.db-shm
+*.db-wal
+.venv/
+
+# ROS / colcon
+.colcon*

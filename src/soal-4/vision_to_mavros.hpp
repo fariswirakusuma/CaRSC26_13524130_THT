@@ -18,32 +18,51 @@
 #include <string>
 
 /**
- * @file vision_to_mavros.cpp
- * @brief Mengambil data pose dari sistem vision dan mengirim ke MAVROS.
- * @author Faris
+ * @file vision_to_mavros.hpp
+ * @brief Melakukan Parsing pipeline dengan uav_vision
+ * @author Faris Wirakusuam
  * @date 2026-01-20
  */
 
 
+ /**
+   * @class VisionToMarvos class ini menangani konversi data pose dari sistem vision
+ * dan mempublish hasilnya ke topic MAVROS
+   * @brief Node ROS2 untuk mengirim data vision ke MAVROS.
+   */
 class VisionToMavros : public rclcpp::Node {
     public:
-    /**
-     * @brief Fungsi utama untuk mengirim pose dari vision ke MAVROS.
-     *
-     * Fungsi ini biasanya dipanggil dalam loop ROS2 atau timer.
-     * Data pose yang diterima dari sistem vision dikonversi menjadi
-     * PoseStamped dan dipublish ke topic MAVROS.
-     */
         VisionToMavros();
         ~VisionToMavros() {}
-
+        /**
+        * @brief Menjalankan keseluruhan vision to marvoss
+        */
         void run(void);
 
     private:
+        /**
+         * @brief Menginisialisasi parameter navigasi.
+         */
         void navigationParameters(void);
+        /**
+        * @brief Menginisialisasi parameter precision landing.
+        */
         void precisionLandParameters(void);
+        /**
+        * @brief Callback yang dipanggil ketika transform TF sudah tersedia.
+        * @param future Transform hasil lookup dalam bentuk shared_future.
+        */
         void transformReady(const std::shared_future<geometry_msgs::msg::TransformStamped>&);
-        bool waitForFirstTransform(double);
+        /**
+        * @brief Menunggu hingga transform pertama tersedia.
+        * @param timeout Waktu maksimum (dalam detik) untuk menunggu.
+        * @return true jika transform berhasil diperoleh,
+        *         false jika timeout atau gagal.
+        */
+        bool waitForFirstTransform(double timeout);
+        /**
+         * @brief Mempublish estimasi posisi dari sistem vision ke MAVROS.
+         */
         void publishVisionPositionEstimate();
 
         rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr camera_pose_publisher; 

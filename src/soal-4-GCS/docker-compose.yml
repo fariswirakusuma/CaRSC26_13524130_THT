@@ -1,0 +1,23 @@
+services:
+  backend:
+    build: ./backend
+    container_name: backend
+    ports:
+      - "9000:9000"    # backend container port = 9000
+    networks:
+      - web-net
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: frontend
+    ports:
+      - "4000:4000"    # frontend container port = 4000
+    depends_on:
+      - backend
+    networks:
+      - web-net
+    restart: unless-stopped
+
+networks:
+  web-net:
