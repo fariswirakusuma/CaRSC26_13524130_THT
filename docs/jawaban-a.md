@@ -10,7 +10,7 @@ jawaban: <a href="/assets/ssno1.png"><code>jawaban soal-1</code></a>
         4.git merge:menggabungkan 2 branch ke dalam satu perubahan
     <li> jawaban: <a href="/assets/ssno2b.png"><code>jawaban soal-2b</code></a>
     <li> jawaban: <a href="/assets/ssno2c.png"><code>jawaban soal-2c</code></a>
-    <li>  jawaban: <a href="/assets/ssno2e.png"><code>jawaban soal-2d</code></a>
+    <li>  jawaban: <a href="/assets/ssno2d.png"><code>jawaban soal-2d</code></a>
     <li> jawaban: <a href="/assets/ssno2e.png"><code>jawaban soal-2e</code></a>
 </ol>
 
@@ -22,7 +22,7 @@ jawaban: <a href="/assets/ssno1.png"><code>jawaban soal-1</code></a>
     2. Telemetry : Monitoring UAV real time
     3. Parameter Tuning: konfigurasi dan kalibrasi sistem
     4. Map and Geofencing: Navigasi dan keamanan kendaraan.
-    <li>
+    <li>jawaban: -
 </ol>
 
 ### ***No 4***:
