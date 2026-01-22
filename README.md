@@ -143,7 +143,7 @@ Jelaskan cara kerja algoritma-algoritma di bawah ini beserta kapan dan di mana a
 
 1. (25 poin) **Pemrograman berorientasi objek** (*Object Oriented Programming* atau OOP) adalah paradigma pemrograman yang menggunakan objek untuk merepresentasikan data dan perilaku dalam sebuah program. 
    <ol type="a">
-      <li> (9 poin) Jelaskan konsep-konsep dasar OOP berikut dan berikan contoh singkat dalam bahasa C++: <i>class</i>, <i>object</i>, <i>abstraction</i>, <i>encapsulation</i>, <i>inheritance</i>, dan <i>polymorphism</i>.
+      <li> (9 poin) Jelaskan konsep-konsep dasar OOP berikut dan berikan contoh singkat dalam bahasa C++: iclass</i>, <i>object</i>, <i>abstraction</i>, <i>encapsulation</i>, <i>inheritance</i>, dan <i>polymorphism</i>.
       <li> (16 poin) Perhatikan file <a href="/lampiran/telemetry_processor.cpp"><code>telemetry_processor.cpp</code></a> dan data di <a href="/lampiran/telemetry_data.txt"><code>telemetry_data.txt</code></a>. Kode tersebut adalah implementasi prosedural untuk memproses data telemetri UAV. Silakan <i>refactor</i> kode tersebut menjadi implementasi berorientasi objek (OOP) dengan membuat kelas yang sesuai. Selain itu, pelajari salah satu <a href="https://refactoring.guru/design-patterns">design pattern</a> sederhana (misalnya, Factory, Observer, atau Strategy) dan terapkan dalam refactor tersebut. Jelaskan <i>design pattern</i> yang Anda gunakan dan mengapa cocok untuk kasus ini. Lampirkan kode hasil <i>refactor</i> sebagai jawaban.
    </ol>
 
